@@ -1,97 +1,22 @@
-# AI Resume Analyzer
+## Screenshots
 
-An AI-powered Resume Analyzer built using Python, Flask, NLP, SQLite, and Bootstrap.
+### Home Page
 
-## Features
+![Home Page](screenshots/home.png)
 
-* ATS Score Calculation
-* Resume Skill Extraction
-* Job Description Matching
-* Skill Gap Analysis
-* Resume Completeness Check
-* PDF Report Generation
-* Resume Analysis History
-* SQLite Database Integration
+### Analysis Dashboard - ATS & JD Match
 
-## Tech Stack
+![Dashboard 1](screenshots/result1.png)
 
-* Python
-* Flask
-* SQLite
-* Bootstrap
-* NLP
-* PDF Processing
-* Matplotlib
+### Analysis Dashboard - Skills & Recommendations
 
-## Project Structure
+![Dashboard 2](screenshots/result2.png)
 
-```text
-AI-Resume-Analyzer
-│
-├── app.py
-├── ats_score.py
-├── jd_matcher.py
-├── database.py
-├── skill_gap.py
-├── report_generator.py
-├── requirements.txt
-│
-├── templates/
-│   ├── index.html
-│   ├── result.html
-│   └── history.html
-│
-├── static/
-├── uploads/
-└── reports/
-```
+### History Page
 
-## Installation
-
-```bash
-git clone https://github.com/apoorvagaonkar99/AI-Resume-Analyzer-Python.git
-
-cd AI-Resume-Analyzer-Python
-
-pip install -r requirements.txt
-
-python app.py
-```
-
-## Usage
-
-1. Upload a Resume (PDF)
-2. Paste a Job Description
-3. Click **Analyze Resume**
-4. View ATS Score, JD Match, Missing Skills, and Recommendations
-5. Download PDF Report
-
-## Key Features
-
-### ATS Score
-
-Evaluates resume quality and ATS compatibility.
-
-### JD Matching
-
-Compares resume skills against job requirements.
-
-### Skill Gap Analysis
-
-Identifies missing skills required for a target role.
+![History](screenshots/history.png)
 
 ### PDF Report Generation
 
-Generates downloadable professional reports.
+![PDF Report](screenshots/pdf_report.png)
 
-### Resume History
-
-Stores previous analyses using SQLite.
-
-## Author
-
-**Apoorva D Gaonkar**
-
-Bachelor of Engineering (Computer Science)
-
-GitHub: https://github.com/apoorvagaonkar99
